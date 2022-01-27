@@ -238,7 +238,7 @@ lis2=[]
 for m in lis_cur_mum:
     if (isinstance(m, datetime.datetime)):
         lis1.append(i)
-        i+=1
+    i+=1
 
 i=0
 for m in lis_cur_pun:
